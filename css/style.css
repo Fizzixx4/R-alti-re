@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'alexBrush-Regular';
+    src: url('../polices/alex-brush/AlexBrush-Regular.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+/*Fond de page*/
+body{
+    background-image: url('../images/texture3.jpg');
+    background-attachment:scroll;
+}
+
+/*Titre principal*/
+header h1{
+    text-align: center;
+    color: #5e0c0c;
+    font-family: 'alexBrush-Regular';
+    font-size: 6em;
+    text-shadow: black(1,1,1);
+    text-decoration: overline;
+    text-shadow: 3px 3px 3px white;
+}
+
+/*Menu*/
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+    background-color: white;
+    padding: 3px;
+    border:solid black;
+}
+
+nav ul li a{
+    color: #5e0c0c;
+    font-family: 'alexBrush-Regular';
+    font-size:3em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+/*Accueil*/
+    /*Image de la page d'accueil*/
+    #entrée img{
+        text-align: center;
+        width: 100%;
+    }
+
+    /*Texte de la page d'accueil*/
+    #entrée p{
+        font-size: 2em;
+        color:black;
+        text-align: center;
+    }
+
+/*Domaine*/        
+    /*Bandeau domaine*/
+    #domaine img{
+        width: 100%;
+    }
+
+/*Vins*/
+    /*Image bouteille*/
+    .photoBouteille img{
+        text-align: center;
+        width: 100%;
+        border: solid black;
+        background-color: rgba(255, 255, 255, 0.724);
+    }
+
+    .descriptionBouteille{
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.724);
+        border: thick double black;
+        font-size: 1.5em;
+        color: #5e0c0c;
+        font-family: 'Amatic SC', cursive;
+        font-weight: 700;
+    }
+
+/*Contact*/
