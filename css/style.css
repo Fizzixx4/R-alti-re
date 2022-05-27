@@ -65,6 +65,10 @@ nav ul li a:hover{
         width: 100%;
     }
 
+    #domaine p{
+        font-size: 2em;
+    }
+
 /*Vins*/
     /*Image bouteille*/
     .photoBouteille img{
