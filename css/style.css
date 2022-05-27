@@ -17,7 +17,6 @@ header h1{
     color: #5e0c0c;
     font-family: 'alexBrush-Regular';
     font-size: 6em;
-    text-shadow: black(1,1,1);
     text-decoration: overline;
     text-shadow: 3px 3px 3px white;
 }
@@ -59,23 +58,32 @@ nav ul li a:hover{
         text-align: center;
     }
 
-/*Domaine*/   
+/*Domaine*/  
+    /*Bandeaux*/
+    .bandeauDomaine{
+        position: relative;
+        height: 230px;
+    }
+    /*Images*/
+    .bandeauDomaine img{
+        position: absolute;
+        width: 100%;
+    }
+
     /*Titres*/
-    #domaine h2{
-        color: #5e0c0c;
-        text-decoration: underline;
+    .bandeauDomaine h2{
+        position: absolute;
+        right: 20px;
+        top: 70px;
+        color: rgba(255, 255, 255, 0.771);
+        text-shadow: 2px 2px 2px black;
         font-size: 2em;
         font-family:'Times New Roman', Times, serif;
     }
 
-    /*Images*/
-    #domaine img{
-        width: 100%;
-        position: relative;
-    }
-
     /*Paragraphe*/
     #domaine p{
+        position: static;
         font-size: 1.3em;
         background-color: rgba(255, 255, 255, 0.273);
     }
