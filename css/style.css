@@ -59,23 +59,30 @@ nav ul li a:hover{
         text-align: center;
     }
 
-/*Domaine*/   
+/*Domaine*/  
+    /*Bandeaux*/
+    .bandeauDomaine{
+        position: relative;
+        height: 230px;
+    }
+    /*Images*/
+    .bandeauDomaine img{
+        position: absolute;
+        width: 100%;
+    }
+
     /*Titres*/
-    #domaine h2{
+    .bandeauDomaine h2{
+        position: absolute;
         color: #5e0c0c;
         text-decoration: underline;
         font-size: 2em;
         font-family:'Times New Roman', Times, serif;
     }
 
-    /*Images*/
-    #domaine img{
-        width: 100%;
-        position: relative;
-    }
-
     /*Paragraphe*/
     #domaine p{
+        position: static;
         font-size: 1.3em;
         background-color: rgba(255, 255, 255, 0.273);
     }
