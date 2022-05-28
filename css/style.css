@@ -8,7 +8,7 @@
 /*Fond de page*/
 body{
     background-image: url('../images/texture3.jpg');
-    background-attachment:scroll;
+    background-attachment:fixed;
 }
 
 /*Titre principal*/
