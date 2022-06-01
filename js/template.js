@@ -38,7 +38,7 @@ let html = "";
 
 for(let vin of vins){
     html +=
-    "<div class='photoBouteille'></div>"+
+    "<div class='photoBouteille'>"+
         "<img src='"+vin.cheminImage+"'>"+
     "</div>"+
     "<div class ='descriptionBouteille'>"+
@@ -47,7 +47,8 @@ for(let vin of vins){
             "Alcool : "+vin.alcool+"</br>"+
             "Millésime : "+vin.millesime+"</br>"+
         "</p>"+
-    "</div>"
+    "</div>"+
+    "</br>"
 };
 
 presentationBouteille.innerHTML = html;
