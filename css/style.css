@@ -16,7 +16,7 @@ header h1{
     text-align: center;
     color: #5e0c0c;
     font-family: 'alexBrush-Regular';
-    font-size: 6em;
+    font-size: 4.8em;
     text-decoration: overline;
     text-shadow: 3px 3px 3px white;
 }
@@ -47,13 +47,12 @@ nav ul li a:hover{
 /*Accueil*/
     /*Image de la page d'accueil*/
     #entrée img{
-        text-align: center;
         width: 100%;
     }
 
     /*Texte de la page d'accueil*/
     #entrée p{
-        font-size: 2em;
+        font-size: 1.6em;
         color:black;
         text-align: center;
     }
@@ -91,7 +90,7 @@ nav ul li a:hover{
 /*Vins*/
     /*Image bouteille*/
     .photoBouteille img{
-        text-align: center;
+        text-align: left;
         width: 100%;
         border: solid black;
         background-color: rgba(255, 255, 255, 0.724);
@@ -108,3 +107,30 @@ nav ul li a:hover{
     }
 
 /*Contact*/
+    /*Image*/
+    #contact img{
+        width: 100%; 
+    }
+
+    /*Article*/
+    #contact article{
+        background-color: rgba(255, 255, 255, 0.273);
+        border: solid black;
+        margin-top: 2px;
+    }
+
+    /*Titre Article*/
+    #contact h2{
+        position: relative;
+        left: 30px;
+    }
+    /*Listes*/
+    #contact li img{
+        height: 22px;
+        width: 22px;
+    }
+
+    #contact li{
+        list-style: none;
+        font-size: 1.2em; 
+    }
