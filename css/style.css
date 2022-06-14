@@ -21,6 +21,7 @@ body{
 
 /*Entête*/
 #titre{
+    margin-top: 10px;
     display: flex;
     height: 100px;
     justify-content: space-between;
