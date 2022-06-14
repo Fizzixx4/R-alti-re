@@ -38,17 +38,18 @@ let html = "";
 
 for(let vin of vins){
     html +=
-    "<div class='photoBouteille'>"+
-        "<img src='"+vin.cheminImage+"'>"+
-    "</div>"+
-    "<div class ='descriptionBouteille'>"+
-        "<p> Couleur : "+vin.couleur+"</br>"+
-            "Cépage : "+vin.cepage+"</br>"+
-            "Alcool : "+vin.alcool+"</br>"+
-            "Millésime : "+vin.millesime+"</br>"+
-        "</p>"+
-    "</div>"+
-    "</br>"
+    "<div class = flexVin>"+
+        "<div class ='photoBouteille'>"+
+            "<img src ='"+vin.cheminImage+"'>"+
+        "</div>"+
+        "<div class ='descriptionBouteille'>"+
+            "<p> Couleur : "+vin.couleur+"</br>"+
+                "Cépage : "+vin.cepage+"</br>"+
+                "Alcool : "+vin.alcool+"</br>"+
+                "Millésime : "+vin.millesime+"</br>"+
+            "</p>"+
+        "</div>"+
+    "</div>"
 };
 
 presentationBouteille.innerHTML = html;
