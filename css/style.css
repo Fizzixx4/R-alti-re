@@ -120,7 +120,7 @@ header h1{
             #bandeauPage h2{
                 bottom: 42%;
                 left: 39%;
-                font-size: 5em;
+                font-size: 4.5em;
             }
         }   
 
@@ -170,7 +170,7 @@ nav ul li a:hover{
     /*Texte de la page d'accueil*/
     #entrée p{
         font-size: 1.6em;
-        color:black;
+        text-shadow: 1px 1px 1px white;
         text-align: center;
         margin-top: 5px;
         margin-bottom: 5px;
@@ -213,7 +213,9 @@ nav ul li a:hover{
     /*Paragraphe*/
     #domaine p{
         position: static;
-        font-size: 1.3em;
+        font-size: 1.4em;
+        color:black;
+        text-shadow: 1px 1px 1px white;
         background-color: rgba(255, 255, 255, 0.273);
         margin-top: 15px;
         margin-bottom: 5px;
@@ -238,6 +240,10 @@ nav ul li a:hover{
 
             .bandeauDomaine img{
                 height: 400px;
+            }
+
+            .bandeauDomaine h2{
+                font-size: 3em;
             }
         }
 
@@ -281,22 +287,36 @@ nav ul li a:hover{
         color: #5e0c0c;
         font-family: 'Amatic SC', cursive;
         font-weight: 700;
+
     }
 
-        /*Ecran normal*/
-        @media only screen and (min-width: 1024px){
+        /*Tablette Paysage*/
+        @media only screen and (min-width: 768px){
             .flexVin{
                 display: flex;
                 flex-direction: row;
-                justify-content: space-between;
+                justify-content: space-around;
             }
 
             .photoBouteille{
-                width: 45%;
+                width: 40%;
             }  
             
             .descriptionBouteille{
                 width: 45%;
+                height: 250px;
+                align-self: center;
+            }
+
+            .descriptionBouteille p{
+                margin-top: 20px;
+            }
+        }
+
+        /*Ecran normal*/
+        @media only screen and (min-width: 1024px){
+            .descriptionBouteille p{
+                margin-top: 40px;
             }
         }
 
@@ -309,18 +329,18 @@ nav ul li a:hover{
     /*Article*/
     #contact article{
         background-color: rgba(255, 255, 255, 0.273);
-        border: solid 1px white;
         margin-top: 20px;
     }
 
     /*Titre Article*/
     #contact{
         width: 80%;
-        margin-left: 10%;
+        margin-left: 10%; 
     }
 
     #contact h2{
         text-align: center;
+        text-shadow: 1px 1px 1px white;
     }
     /*Listes*/
     #contact li img{
@@ -331,6 +351,7 @@ nav ul li a:hover{
     #contact li{
         list-style: none;
         font-size: 1.2em; 
+        text-shadow: 1px 1px 1px white;
     }
         /*Tablette Portrait*/
         @media only screen and (min-width: 600px){
@@ -338,3 +359,16 @@ nav ul li a:hover{
                 margin-bottom: 20px;
             }
         }    
+
+        /*Ecran normal*/
+        @media only screen and (min-width: 1024px){
+            #contact li{
+                text-align: center;
+                margin: 5px 0 5px 0;
+            }
+        }
+
+/*Footer*/
+footer{
+    height: 50px;
+}
