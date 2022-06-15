@@ -21,6 +21,7 @@ body{
 
 /*Entête*/
 #titre{
+    margin-top: 10px;
     display: flex;
     height: 100px;
     justify-content: space-between;
@@ -139,7 +140,7 @@ nav ul{
     background-color: white;
     padding: 3px;
     border:solid black;
-    border-radius: 15%;
+    border-radius: 25%;
 }
 
 nav ul li a{
@@ -217,8 +218,8 @@ nav ul li a:hover{
         color:black;
         text-shadow: 1px 1px 1px white;
         background-color: rgba(255, 255, 255, 0.273);
-        margin-top: 15px;
-        margin-bottom: 5px;
+        margin-top: 30px;
+        margin-bottom: 20px;
     }
 
         /*Tablette Portrait*/
@@ -269,13 +270,15 @@ nav ul li a:hover{
 /*Vins*/
     /*Image bouteille*/
     .flexVin{
-        margin-top: 5px;
+        margin-top: 15px;
+        margin-bottom: 50px;
     }
 
     .photoBouteille img{
         text-align: left;
         width: 100%;
-        border: solid black;
+        border: solid 2px black;
+        border-radius: 5%;
         background-color: rgba(255, 255, 255, 0.724);
     }
 
@@ -283,11 +286,12 @@ nav ul li a:hover{
         text-align: center;
         background-color: rgba(255, 255, 255, 0.724);
         border: thick double black;
+        border-radius: 5%;
         font-size: 1.5em;
         color: #5e0c0c;
         font-family: 'Amatic SC', cursive;
         font-weight: 700;
-
+        margin-top: 15px;
     }
 
         /*Tablette Paysage*/
