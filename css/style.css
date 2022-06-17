@@ -133,10 +133,9 @@ nav{
 }
 
 nav ul{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     list-style-type: none;
-    display: flex;
-    flex-flow:row wrap;
-    justify-content: space-around;
     background-color: white;
     padding: 3px;
     border:solid black;
@@ -149,6 +148,8 @@ nav ul li a{
     font-size:3em;
     text-decoration: none;
     font-weight: bold;
+    align-items: center;
+    margin-left: 13%;
 }
 
 nav ul li a:hover{
@@ -159,6 +160,13 @@ nav ul li a:hover{
         @media  only screen and (min-width: 600px){
             nav ul{
                 margin-bottom: 15px;
+            }
+        }
+
+        /*Tablette Paysage*/
+        @media  only screen and (min-width: 768px){
+            nav ul{
+                grid-template-columns: 0.8fr 1.4fr 1fr 0.8fr;
             }
         }
 
